@@ -1,0 +1,52 @@
+[
+    {
+        "Name": "test",
+        "Id": "a86e55abc1bb04b463e29379f96523a2b5be859b1509d236127c2850fbc657ec",
+        "Created": "2018-08-01T17:39:46.476078366Z",
+        "Scope": "local",
+        "Driver": "bridge",
+        "EnableIPv6": false,
+        "IPAM": {
+            "Driver": "default",
+            "Options": {},
+            "Config": [
+                {
+                    "Subnet": "172.21.0.0/16",
+                    "Gateway": "172.21.0.1"
+                }
+            ]
+        },
+        "Internal": false,
+        "Attachable": false,
+        "Ingress": false,
+        "ConfigFrom": {
+            "Network": ""
+        },
+        "ConfigOnly": false,
+        "Containers": {
+            "edf84068da2084f9f6df694a872abd88a0601db4dd39a54036cedc65c41d5b50": {
+                "Name": "t3",
+                "EndpointID": "66ab6414baf517b41b69fdeef75637f4348f4db806cac0e056262f6cf0cd34fa",
+                "MacAddress": "02:42:ac:15:00:04",
+                "IPv4Address": "172.21.0.4/16",
+                "IPv6Address": ""
+            },
+            "f7d6d4dafd279c59a2f67972c69026984123335ffed127534c5e30efd85e0b76": {
+                "Name": "t2",
+                "EndpointID": "150aebad9e7e608f65927f923bcb62c7c6398c52d0057fb2aabcce5124130a0c",
+                "MacAddress": "02:42:ac:15:00:03",
+                "IPv4Address": "172.21.0.3/16",
+                "IPv6Address": ""
+            },
+            "fdbf7b4ad1c3bf580eeb6114ecdd441923209ddabbb709cccc66f9e3fb14fad1": {
+                "Name": "t1",
+                "EndpointID": "87c8c53b330f5df043c92828fb2e766460147f890a5dbb1556255857fb8542ef",
+                "MacAddress": "02:42:ac:15:00:02",
+                "IPv4Address": "172.21.0.2/16",
+                "IPv6Address": ""
+            }
+        },
+        "Options": {},
+        "Labels": {}
+    }
+]
